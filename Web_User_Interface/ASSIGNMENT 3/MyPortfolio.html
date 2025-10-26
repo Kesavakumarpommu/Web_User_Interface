@@ -12,7 +12,7 @@
   <style>
     body {
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background: #f5f7fa;
+      background: linear-gradient(to right, #e0f7fa, #e1bee7);
       scroll-behavior: smooth;
     }
 
@@ -75,7 +75,7 @@
 
   <header id="home">
     <h1 id="greeting">Welcome!</h1>
-    <p>I’m <strong>Kesavapandiyan (Roll No: 23BCS043)</strong>, a passionate Web Developer.</p>
+    <p>I’m <strong>Kesavakumar pommu N (Roll No: 23BCSL01)</strong>, a passionate Web Developer.</p>
     <div id="clock"></div>
   </header>
 
@@ -131,7 +131,7 @@
   </div>
 
   <footer>
-    <p>© 2025 Kesavakumar pommu (Roll No: 23BCSL01) | Designed with using HTML5, CSS3, JS, jQuery & Bootstrap</p>
+    <p>© 2025 Kesavakumar Pommu (Roll No: 23BCSL01) | Designed using HTML5, CSS3, JS, jQuery & Bootstrap</p>
   </footer>
 
   <script>
@@ -160,9 +160,18 @@
       });
 
       const projects = [
-        { title: "Automatic Exam - Hall Seating Arrangement System", desc: "A responsive Seating Arrangement for Students,which will reduce the manual work using java." },
-        { title: "Diabetes Prediction System", desc: "Predicting the diabetes level of the patient.Our project reduces the consultation time of the pateient using python." },
-        { title: "AI-Driven Health Diagnosis System", desc: "A real-time prediction(100%) of disease leavel without doctor using python and html,bootstrap,javascript" },
+        {
+          title: "Petrol Bunk Management System using Java Swing",
+          desc: "A desktop application to manage fuel inventory, billing, and staff shifts using Java Swing."
+        },
+        {
+          title: "Diabetes Prediction System",
+          desc: "Predicts diabetes level of patients, reducing consultation time using Python and ML."
+        },
+        {
+          title: "AI-Driven Health Diagnosis System",
+          desc: "Real-time disease prediction without doctor intervention using Python, HTML, Bootstrap, and JS."
+        }
       ];
 
       projects.forEach(p => {
@@ -198,15 +207,4 @@
 
   <div class="modal fade" id="projectModal" tabindex="-1" aria-labelledby="projectModalLabel" aria-hidden="true">
     <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header bg-success text-white">
-          <h5 class="modal-title" id="projectModalLabel"></h5>
-          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
-        </div>
-        <div class="modal-body" id="projectModalBody"></div>
-      </div>
-    </div>
-  </div>
-
-</body>
-</html>
+      <div class="modal
